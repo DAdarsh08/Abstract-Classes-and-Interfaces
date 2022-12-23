@@ -1,12 +1,13 @@
 package company.com;
 
-public class Dhesus {
+public class Dhesus extends TaxableProduct {
     private int quantity;
 
     public Dhesus(int quantity) {
         this.quantity = quantity;
     }
 
+//    @Override
     public double tax() {
         if (quantity <= 10) {
             return 0;

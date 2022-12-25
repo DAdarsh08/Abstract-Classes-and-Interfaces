@@ -15,7 +15,7 @@ public class Ans {
 
         Rectangle rectangle=new Rectangle(8,9);;
         Fig fig=new Rectangle(8,9);;
-        
+
         System.out.println(  i.noOfSides());
     }
 }
